@@ -5,7 +5,7 @@ import { FaHandshake } from "react-icons/fa";
 function Collab() {
   return (
     <div className=" p-2 pt-[2em]    bg-gray-100 flex flex-col items-center justify-center font-sans">
-      <h1 className="text-xl sm:text-2xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent mb-2 sm:mb-4 text-center">
+      <h1 className="text-xl sm:text-2xl md:text-5xl font-bold bg-gradient-to-r from-blue-950 to-[rgb(184,136,82)] bg-clip-text text-transparent mb-2 sm:mb-4 text-center">
         In Collaboration with GTCFX
       </h1>
       <div className="flex items-center justify-center space-x-2 sm:space-x-4 md:space-x-6">
@@ -43,7 +43,7 @@ function Collab() {
       
                   
                     className="relative px-8 md:px-20 py-3 text-white rounded-full 
-                    bg-gradient-to-r from-blue-600 to-green-600 
+                    bg-gradient-to-r from-blue-950 to-[rgb(184,136,82)] 
                     overflow-hidden transition-transform duration-300 
                     hover:scale-110 hover:rotate-1"
                   >

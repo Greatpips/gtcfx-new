@@ -92,7 +92,7 @@ const AwardSlider = () => {
 
   return (
     <div className="pt-20 text-center pb-[3em] bg-gray-100">
-      <h2 className="text-2xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent">Some Of GTCFX Awards</h2>
+      <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-950 to-[rgb(184,136,82)] bg-clip-text text-transparent">Some Of GTCFX Awards</h2>
       <style jsx>{`
         @keyframes slide {
           from {
@@ -127,7 +127,7 @@ const AwardSlider = () => {
       
                   
                     className="relative px-8 md:px-20 py-3 text-white rounded-full 
-                    bg-gradient-to-r from-blue-600 to-green-600 
+                    bg-gradient-to-r from-blue-950 to-[rgb(184,136,82)] 
                     overflow-hidden transition-transform duration-300 
                     hover:scale-110 hover:rotate-1"
                   >

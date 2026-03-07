@@ -38,7 +38,7 @@ function HighLights() {
     <section id="highlights" className="bg-gray-100 py-10">
       <div className="container mx-auto px-4 max-w-6xl">
         <FadeInOnScroll>
-          <h2 className="text-3xl md:text-4xl text-center font-bold mb-10 bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent">
+          <h2 className="text-3xl md:text-4xl text-center font-bold mb-10 bg-gradient-to-r from-blue-950 to-[rgb(184,136,82)] bg-clip-text text-transparent">
             Highlights From Our Previous Seminars
           </h2>
         </FadeInOnScroll>
@@ -93,7 +93,7 @@ function HighLights() {
           <button
             onClick={() => setShowForm(true)}
             className="relative px-8 md:px-20 py-3 font-semibold text-white rounded-full 
-              bg-gradient-to-r from-blue-600 to-green-600 
+              bg-gradient-to-r from-blue-950 to-[rgb(184,136,82)]
               overflow-hidden transition-transform duration-300 
               hover:scale-110 hover:rotate-1"
           >

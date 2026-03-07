@@ -15,13 +15,13 @@ export default function Hero() {
           alt="Mobile Banner"
           className="w-full h-auto object-contain"
         />
-        <div className="absolute md:top-1/2 md:right-1/4 right-1/5 top-1/2 w-full flex justify-center">
+        <div className="absolute md:top-1/2 md:right-1/4 right-[1%] top-[83%] w-full flex justify-center">
           <FadeInOnScroll>
             <button 
 
             onClick={() => setShowForm(true)}
               className="relative px-6 py-1 sm:px-12 sm:py-3 font-semibold text-white rounded-full 
-              bg-gradient-to-r from-blue-600 to-green-600 
+              bg-gradient-to-r from-blue-950 to-[rgb(184,136,82)]
               overflow-hidden transition-transform duration-300 
               hover:scale-110 hover:rotate-1"
             >
@@ -39,13 +39,13 @@ export default function Hero() {
           alt="Desktop Banner"
           className="w-full h-auto object-contain"
         />
-        <div className="absolute bottom-1/4 right-1/5  w-full flex justify-center ">
+        <div className="absolute bottom-[30%] right-[8%]  w-full flex justify-center ">
           <FadeInOnScroll>
             <button
 
             onClick={() => setShowForm(true)}
-              className="relative px-8 md:px-20 py-3 font-semibold text-white rounded-full 
-              bg-gradient-to-r from-blue-600 to-green-600 
+              className="relative px-8 md:px-20 py-3 font-bold text-3xl text-white rounded-full 
+              bg-gradient-to-r from-blue-950 to-[rgb(184,136,82)]
               overflow-hidden transition-transform duration-300 
               hover:scale-110 hover:rotate-1"
             >

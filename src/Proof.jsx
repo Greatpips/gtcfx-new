@@ -123,7 +123,7 @@ const Proof = () => {
   return (
     <div className="p-2 pt-[3em] bg-gray-100 min-h-screen font-sans">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-2xl md:text-4xl font-bold bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent mb-4 text-center">
+        <h1 className="text-2xl md:text-4xl font-bold bg-gradient-to-r from-blue-950 to-[rgb(184,136,82)] bg-clip-text text-transparent mb-4 text-center">
           Proof From Some Of Our Running Accounts
         </h1>
       
