@@ -1,0 +1,144 @@
+@import "tailwindcss";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+@keyframes slide {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+/* Base animation */
+.glow-slide {
+  position: absolute;
+  inset: 0;
+  width: 200%;
+  background: linear-gradient(to right, transparent, rgba(255,255,255,0.6), transparent);
+  animation: slide 2.5s linear infinite;
+  pointer-events: none; /* makes sure the glow doesn’t block button clicks */
+}
+
+/* Faster + stronger glow on hover */
+button:hover .glow-slide {
+  animation-duration: 1.2s; /* speed up */
+  background: linear-gradient(to right, transparent, rgba(255,255,255,0.7), transparent);
+}
+
+@keyframes shimmer-logo {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+
+@keyframes shimmer-logo {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+@keyframes shimmer-logo {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+/* Shimmer layer */
+.logo-shimmer {
+  position: absolute;
+  inset: 0;
+  width: 200%;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(255, 255, 255, 0.7),
+    transparent
+  );
+  animation: shimmer-logo 3s linear infinite;
+  pointer-events: none; /* so it doesn’t block hover/click */
+  z-index: 20;
+}
+
+/* Hover effects */
+.logo-container:hover .logo-shimmer {
+  animation-duration: 1.2s; /* faster */
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(255, 255, 255, 0.8),
+    transparent
+  );
+}
+
+.logo-container:hover img {
+  transform: scale(1.1); /* slight zoom */
+  transition: transform 0.3s ease-in-out;
+}
+
+
+/* sliding shimmer used by both desktop + mobile buttons */
+@keyframes slideGlow {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+/* overlay that does the sliding shimmer */
+.glow-slide {
+  position: absolute;
+  inset: 0;
+  width: 200%;
+  /* subtle white band in the middle — tweak alpha to make it stronger/weaker */
+  background: linear-gradient(to right, transparent, rgba(255,255,255,0.45), transparent);
+  animation: slideGlow 2s linear infinite;
+  pointer-events: none; /* keep button clickable */
+  z-index: 15;
+  will-change: transform;
+}
+
+/* on hover speed up and brighten the shimmer */
+button:hover .glow-slide,
+.menu-button:hover .glow-slide {
+  animation-duration: 1s;
+  background: linear-gradient(to right, transparent, rgba(255,255,255,0.7), transparent);
+}
+
+@keyframes slide {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.glow-slide {
+  position: absolute;
+  inset: 0;
+  width: 200%;
+  background: linear-gradient(to right, transparent, rgba(255,255,255,0.6), transparent);
+  animation: slide 2.5s linear infinite;
+  pointer-events: none; /* keeps button clickable */
+}
+
+button:hover .glow-slide {
+  animation-duration: 1.2s;
+  background: linear-gradient(to right, transparent, rgba(255,255,255,0.7), transparent);
+}
+
+@keyframes fadePop {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+@keyframes sway {
+  0% { transform: translatey(0); }
+  50% { transform: translatey(8px); }
+  100% { transform: translatey(0); }
+}
+
+.sway-image {
+  animation: sway 3s ease-in-out infinite;}
