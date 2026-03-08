@@ -3,9 +3,8 @@ import Hero from "./Hero"
 import About from "./AboutSection"
 import HighLights from "./HighLights"
 import Testimonial from "./Testimonial"
+import Faq from "./Faq"
 import Testi from "./Testi"
-import Proof from "./Proof"
-import Collab from "./Collab"
 import AwardSlider from "./AwardSlider"
 import Footer from "./Footer"
 function App() {
@@ -17,8 +16,7 @@ function App() {
     <HighLights />
     <Testi />
     <Testimonial />
-    <Proof />
-    <Collab />
+    <Faq />
     <AwardSlider />
     <Footer />
     </>
