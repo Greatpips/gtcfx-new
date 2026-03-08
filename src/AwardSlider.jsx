@@ -131,7 +131,7 @@ const AwardSlider = () => {
                     overflow-hidden transition-transform duration-300 
                     hover:scale-110 hover:rotate-1"
                   >
-                    <span className="relative z-10"><a href="https://mygtcportal.com/getview?view=register&token=ejtowwwwqowwwwww" className="font-semibold">Register With Gtcfx Now</a></span>
+                    <span className="relative z-10"><a href="https://www.gtcfx.com/" className="font-semibold">Sign Up For Smart Earner Bot Now</a></span>
                     <span className="glow-slide"></span>
                   </button>
       </div>

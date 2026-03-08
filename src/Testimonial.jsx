@@ -17,18 +17,15 @@ const Testimonial = () => {
 
   // A list of message templates to cycle through
   const messages = [
-    " more Just signed up for this life changing opportunity.",
-    " more Just signed up for this life changing opportunity.",
-    " more Just signed up for this life changing opportunity.",
-    " more Just signed up for this life changing opportunity.",
-    " more Just signed up for this life changing opportunity.",
-    " more Just signed up for this life changing opportunity.",
-    " more Just signed up for this life changing opportunity.",
-    " more Just signed up for this life changing opportunity.",
-    " more Just signed up for this life changing opportunity.",
-    " more Just signed up for this life changing opportunity.",
-    " more Just signed up for this life changing opportunity.",
-    " more Just signed up for this life changing opportunity."
+    " more Just signed up for the Smart Earner Bot.",
+    " more Just signed up for the Smart Earner Bot.",
+    " more Just signed up for the Smart Earner Bot.",
+    " more Just signed up for the Smart Earner Bot.",
+    " more Just signed up for the Smart Earner Bot.",
+    " more Just signed up for the Smart Earner Bot.",
+    " more Just signed up for the Smart Earner Bot.",
+    " more Just signed up for the Smart Earner Bot.",
+    " more Just signed up for the Smart Earner Bot."
   ];
 
   useEffect(() => {

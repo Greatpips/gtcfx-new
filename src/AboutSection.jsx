@@ -25,7 +25,7 @@ export default function AboutSection() {
   
 
   return (
-    <section id="about" className="relative w-full py-18 bg-gray-100 overflow-hidden">
+    <section id="about" className="relative w-full  bg-gray-100 overflow-hidden">
             <div className="grid md:grid-cols-2 gap-8  max-w-6xl mx-auto px-4 py-12">
   {/* Image */}
   <div>
@@ -53,7 +53,7 @@ export default function AboutSection() {
         ) : isInView ? (
           <Typewriter
             options={{
-              strings: ["Meet Profit Matrix"],
+              strings: ["Meet Smart Earner Bot"],
               autoStart: true,
               loop: false,
               delay: 50,
