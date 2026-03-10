@@ -1,9 +1,11 @@
 import React, { useRef, useEffect, useState } from "react";
 
 function WebinarVideo() {
-  const iframeRef = useRef(null);
+  const containerRef = useRef(null);
   const [play, setPlay] = useState(false);
   const [muted, setMuted] = useState(true);
+
+  const videoId = "niwxx4C8h9g";
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -15,19 +17,18 @@ function WebinarVideo() {
       { threshold: 0.5 }
     );
 
-    if (iframeRef.current) {
-      observer.observe(iframeRef.current);
+    if (containerRef.current) {
+      observer.observe(containerRef.current);
     }
 
     return () => {
-      if (iframeRef.current) observer.unobserve(iframeRef.current);
+      if (containerRef.current) observer.unobserve(containerRef.current);
     };
   }, []);
 
-  // Construct YouTube URL based on mute state
   const videoSrc = play
-    ? `https://www.youtube.com/embed/MDV_WWkgLDQ?autoplay=1&mute=${muted ? 1 : 0}&si=FjDa_T8YNjdOR0Y8`
-    : "https://www.youtube.com/embed/MDV_WWkgLDQ?si=FjDa_T8YNjdOR0Y8";
+    ? `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=${muted ? 1 : 0}&controls=1&rel=0&modestbranding=1&playsinline=1`
+    : `https://www.youtube.com/embed/${videoId}?controls=1&rel=0&modestbranding=1`;
 
   return (
     <section className="w-full py-10 bg-gray-100">
@@ -40,27 +41,30 @@ function WebinarVideo() {
 
         {/* Subtext */}
         <p className="text-center text-gray-700 mb-10 text-lg max-w-3xl mx-auto">
-          Discover how <span className="font-semibold text-blue-950">Profit Matrix AI</span> 
-          analyzes financial markets and helps traders identify high-probability opportunities 
+          Discover how <span className="font-semibold text-blue-950">Profit Matrix AI</span>
+          analyzes financial markets and helps traders identify high-probability opportunities
           using advanced trading intelligence.
         </p>
 
-        {/* Video Container */}
-        <div className="relative w-full max-w-3xl mx-auto overflow-hidden rounded-2xl shadow-2xl border border-gray-200">
-          <div className="relative pb-[56.25%] h-0" ref={iframeRef}>
+        {/* Video */}
+        <div
+          ref={containerRef}
+          className="relative w-full max-w-3xl mx-auto overflow-hidden rounded-2xl shadow-2xl border border-gray-200"
+        >
+          <div className="relative pb-[56.25%] h-0">
 
-            {/* Iframe */}
             <iframe
+              key={muted} 
               className="absolute top-0 left-0 w-full h-full"
               src={videoSrc}
               title="Profit Matrix AI Webinar"
               frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allow="autoplay; encrypted-media; picture-in-picture"
               allowFullScreen
-            ></iframe>
+            />
 
-            {/* Click to Unmute Overlay */}
-            {muted && (
+            {/* Unmute button */}
+            {muted && play && (
               <button
                 onClick={() => setMuted(false)}
                 className="absolute bottom-4 right-4 bg-blue-950 text-white px-4 py-2 rounded-lg shadow-lg hover:bg-blue-800 transition"

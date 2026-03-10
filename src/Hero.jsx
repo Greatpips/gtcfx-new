@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Design from './Img/background-img.png'
+import Design from './Img/desktop-image.png'
 import FadeInOnScroll from "./FadeInOnScroll";
-import Logo from './Img/mobile-img.png'
+import Logo from './Img/mobile-image.png'
 import SignupForm from "./SignupForm";
 
 export default function Hero() {
@@ -39,7 +39,7 @@ export default function Hero() {
           alt="Desktop Banner"
           className="w-full h-auto object-contain"
         />
-        <div className="absolute bottom-[30%] right-[8%]  w-full flex justify-center ">
+        <div className="absolute bottom-[40%] right-[8%]  w-full flex justify-center ">
           <FadeInOnScroll>
             <button
 
