@@ -68,7 +68,7 @@ export default function AboutSection() {
         )}
       </h2>
       <p className="text-lg text-gray-800 leading-relaxed">
-        Profit Matrix is an advanced <span className="font-semibold text-blue-950">trading intelligence system </span>designed to <span className="font-semibold text-[rgb(184,136,82)]">analyze CFD markets</span> and <span className="font-semibold text-blue-950">identify high-probability opportunities</span>. Built with powerful market analysis algorithms, it monitors global financial markets in real time to deliver consistent data-driven insights and optimized trading performance.
+        Smart Earner Bot is an advanced <span className="font-semibold text-blue-950">trading intelligence system </span>designed to <span className="font-semibold text-[rgb(184,136,82)]">analyze CFD markets</span> and <span className="font-semibold text-blue-950">identify high-probability opportunities</span>. Built with powerful market analysis algorithms, it monitors global financial markets in real time to deliver consistent data-driven insights and optimized trading performance.
       </p>
       <ul className="space-y-4 text-gray-800">
         <SlideInLeft delay={0.4}>
@@ -100,71 +100,57 @@ export default function AboutSection() {
   
 </div>
 {/* ================= AI Advantages & Steps Section ================= */}
-<div className="max-w-6xl mx-auto px-6 mt-12">
+<div className="max-w-7xl mx-auto px-6 mt-12">
 
   {/* Heading */}
   <SlideInLeft delay={0.1}>
     <h3 className="text-3xl md:text-4xl font-bold text-center mb-10 
     bg-gradient-to-r from-blue-950 via-text-blue-950 to-[rgb(184,136,82)] 
     bg-clip-text text-transparent">
-      How Profit Matrix Works
+      How Smart Earner Bot Works
     </h3>
   </SlideInLeft>
 
   {/* Grid */}
-  <div className="grid md:grid-cols-3 gap-8">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
     <SlideInLeft delay={0.2}>
-      <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition duration-300 border border-gray-200">
-        <h4 className="text-xl font-bold text-blue-950 mb-3">1. Register Account</h4>
-        <p className="text-base text-gray-700">
-          Create your trading account to gain access to the Profit Matrix AI trading system.
-        </p>
+      <div className="bg-white rounded-2xl shadow-xl p-8 flex items-center justify-center hover:shadow-2xl transition duration-300 border border-gray-200 min-h-[160px] text-center">
+        <h4 className="text-xl font-bold text-blue-950">
+          1. Register a free trading account with GTCFX
+        </h4>
       </div>
     </SlideInLeft>
 
     <SlideInLeft delay={0.3}>
-      <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition duration-300 border border-gray-200">
-        <h4 className="text-xl font-bold text-blue-950 mb-3">2. Activate AI Access</h4>
-        <p className="text-base text-gray-700">
-          Connect your trading account and enable the AI system to start analyzing markets.
-        </p>
+      <div className="bg-white rounded-2xl shadow-xl p-8 flex items-center justify-center hover:shadow-2xl transition duration-300 border border-gray-200 min-h-[160px] text-center">
+        <h4 className="text-xl font-bold text-blue-950">
+          2. Verify and fund your account
+        </h4>
       </div>
     </SlideInLeft>
 
     <SlideInLeft delay={0.4}>
-      <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition duration-300 border border-gray-200">
-        <h4 className="text-xl font-bold text-blue-950 mb-3">3. AI Market Analysis</h4>
-        <p className="text-base text-gray-700">
-          Profit Matrix scans global CFD markets in real time to identify high-probability setups.
-        </p>
+      <div className="bg-white rounded-2xl shadow-xl p-8 flex items-center justify-center hover:shadow-2xl transition duration-300 border border-gray-200 min-h-[160px] text-center">
+        <h4 className="text-xl font-bold text-blue-950">
+          3. Connect your trading account to the Smart Earner Bot
+        </h4>
       </div>
     </SlideInLeft>
 
     <SlideInLeft delay={0.5}>
-      <div className="bg-white rounded-2xl shadow-xl p-8 pb-14 hover:shadow-2xl transition duration-300 border border-gray-200">
-        <h4 className="text-xl font-bold text-blue-950 mb-3">4. Smart Trade Insights</h4>
-        <p className="text-base text-gray-700">
-          Receive intelligent insights based on advanced algorithmic analysis.
-        </p>
+      <div className="bg-white rounded-2xl shadow-xl p-8 flex items-center justify-center hover:shadow-2xl transition duration-300 border border-gray-200 min-h-[160px] text-center">
+        <h4 className="text-xl font-bold text-blue-950">
+          4. Set your risk management
+        </h4>
       </div>
     </SlideInLeft>
 
     <SlideInLeft delay={0.6}>
-      <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition duration-300 border border-gray-200">
-        <h4 className="text-xl font-bold text-blue-950 mb-3">5. Optimized Performance</h4>
-        <p className="text-base text-gray-700">
-          Designed to support consistent trading performance and smarter decision making.
-        </p>
-      </div>
-    </SlideInLeft>
-
-    <SlideInLeft delay={0.7}>
-      <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition duration-300 border border-gray-200">
-        <h4 className="text-xl font-bold text-blue-950 mb-3">6. Continuous Learning</h4>
-        <p className="text-base text-gray-700">
-          The AI continuously improves through market data and machine learning optimization.
-        </p>
+      <div className="bg-white rounded-2xl shadow-xl p-8 flex items-center justify-center hover:shadow-2xl transition duration-300 border border-gray-200 min-h-[160px] text-center">
+        <h4 className="text-xl font-bold text-blue-950">
+          5. Monitor your trades and withdraw anytime
+        </h4>
       </div>
     </SlideInLeft>
 

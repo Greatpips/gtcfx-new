@@ -6,35 +6,21 @@ function Faq() {
 
   const faqs = [
     {
-      question: "What is Profit Matrix AI?",
+      question: "Do i need to pay for the Bot?",
       answer:
-        "Profit Matrix AI is an advanced trading intelligence system designed to analyze CFD markets in real time. It uses powerful algorithms to scan global markets, identify high-probability opportunities, and provide data-driven insights to support smarter trading decisions.",
+        " No this Bot is Free for all registered and funded account",
     },
     {
-      question: "How does Profit Matrix AI work?",
+      question: "How much can i make monthly?",
       answer:
-        "The AI continuously analyzes market data, price movements, and trading patterns across multiple financial instruments. By processing this information in real time, it highlights potential opportunities and provides insights that help traders make more informed decisions.",
+        "This Bot makes between 5-10% monthly on average",
     },
     {
-      question: "Do I need trading experience to use it?",
+      question: "Can i loose my money on this Bot?",
       answer:
-        "No. Profit Matrix AI is designed to be simple and user-friendly. Both beginners and experienced traders can benefit from the system’s market insights and analysis tools.",
-    },
-    {
-      question: "Can I access Profit Matrix on mobile?",
-      answer:
-        "Yes. Profit Matrix AI can be accessed from desktop, tablet, or mobile devices, allowing you to monitor markets and insights anytime, anywhere.",
-    },
-    {
-      question: "Is my data secure?",
-      answer:
-        "Yes. Security and data protection are a top priority. The platform uses modern security protocols to ensure user information and trading activity remain protected.",
-    },
-    {
-      question: "How do I get started?",
-      answer:
-        "Simply register for an account, activate your access to Profit Matrix AI, and start exploring the market insights and analysis tools available on the platform.",
-    },
+        "We have proper risk management that safe guards your capital and you can set it at 30% or above. This means 70% of your capital is safe when you put it at 30% risk",
+    }
+    
   ];
 
   const toggleFAQ = (index) => {

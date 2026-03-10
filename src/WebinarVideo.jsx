@@ -41,7 +41,7 @@ function WebinarVideo() {
 
         {/* Subtext */}
         <p className="text-center text-gray-700 mb-10 text-lg max-w-3xl mx-auto">
-          Discover how <span className="font-semibold text-blue-950">Profit Matrix AI</span>
+          Discover how <span className="font-semibold text-blue-950">Smart Earner Bot </span>
           analyzes financial markets and helps traders identify high-probability opportunities
           using advanced trading intelligence.
         </p>

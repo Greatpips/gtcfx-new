@@ -6,22 +6,22 @@ import SignupForm from "./SignupForm";
 const Testi = () => {
   const allMessages = [
     {
-      text: "The Profit Matrix AI has completely transformed the way I approach trading. Before using it, I spent hours watching charts and trying to analyze the markets on my own. Now the system helps identify strong opportunities and provides clear insights that make decision-making much easier. It's simple to use, reliable, and it genuinely feels like having an intelligent trading assistant working for me around the clock. - Adaeze M., Lagos",
+      text: "The Smart Earner Bot AI has completely transformed the way I approach trading. Before using it, I spent hours watching charts and trying to analyze the markets on my own. Now the system helps identify strong opportunities and provides clear insights that make decision-making much easier. It's simple to use, reliable, and it genuinely feels like having an intelligent trading assistant working for me around the clock. - Adaeze M., Lagos",
     },
     {
-      text: "I've tried different trading tools before, but Profit Matrix AI stands out. The way it analyzes market data and presents useful insights has helped me become more confident with my trades. Instead of feeling overwhelmed by charts and indicators, I can rely on the AI to simplify the process. It really feels like having a professional trading assistant working for you every day. - Aisha A., Abuja",
+      text: "I've tried different trading tools before, but Smart Earner Bot stands out. The way it analyzes market data and presents useful insights has helped me become more confident with my trades. Instead of feeling overwhelmed by charts and indicators, I can rely on the AI to simplify the process. It really feels like having a professional trading assistant working for you every day. - Aisha A., Abuja",
     },
     {
-      text: "Using Profit Matrix AI has made a big difference in how I trade. The system analyzes the market quickly and highlights opportunities that I would normally miss when trading manually. I also like how simple the interface is — everything is clear and easy to understand. It's like having an intelligent trading system helping you stay one step ahead of the market. - Samuel O., Lagos",
+      text: "Using Smart Earner Bot has made a big difference in how I trade. The system analyzes the market quickly and highlights opportunities that I would normally miss when trading manually. I also like how simple the interface is — everything is clear and easy to understand. It's like having an intelligent trading system helping you stay one step ahead of the market. - Samuel O., Lagos",
     },
     {
-      text: "The Profit Matrix AI has helped me approach trading with much more confidence. It continuously scans the markets and identifies potential opportunities that would take hours to find manually. What impressed me most is how reliable the insights are and how easy the system is to use. It has definitely made trading a more structured and less stressful experience. - David E., Port Harcourt",
+      text: "The Smart Earner Bot has helped me approach trading with much more confidence. It continuously scans the markets and identifies potential opportunities that would take hours to find manually. What impressed me most is how reliable the insights are and how easy the system is to use. It has definitely made trading a more structured and less stressful experience. - David E., Port Harcourt",
     },
     {
-      text: "Since I started using Profit Matrix AI, trading has become much more efficient for me. The platform provides smart market insights and helps highlight strong setups that I might have overlooked on my own. It reduces the need to constantly monitor the charts and makes the entire trading process feel more organized and controlled. - Sadiq A., Kano",
+      text: "Since I started using Smart Earner Bot, trading has become much more efficient for me. The platform provides smart market insights and helps highlight strong setups that I might have overlooked on my own. It reduces the need to constantly monitor the charts and makes the entire trading process feel more organized and controlled. - Sadiq A., Kano",
     },
     {
-      text: "One of the things I appreciate most about Profit Matrix AI is how it simplifies complex market movements. The system processes a lot of market data and turns it into insights that are easy to understand. It has helped me stay disciplined with my trading and focus on better opportunities rather than guessing market direction. - Blessing U., Lagos",
+      text: "One of the things I appreciate most about Smart Earner Bot is how it simplifies complex market movements. The system processes a lot of market data and turns it into insights that are easy to understand. It has helped me stay disciplined with my trading and focus on better opportunities rather than guessing market direction. - Blessing U., Lagos",
     },
   ];
 
