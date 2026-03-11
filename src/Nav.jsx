@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from "./Img/logo.webp"; // replace with your logo path
 import FadeInOnScroll from "./FadeInOnScroll";
 import SignupForm from "./SignupForm";
 
@@ -26,22 +25,8 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-3 ">
         {/* Logo */}
         <div className="flex-shrink-0">
-  
-         <FadeInOnScroll>
-                    <div className="relative h-16  overflow-hidden logo-container">
-  <img
-    src={logo}
-    alt="ApexCore Logo"
-    className="h-full w-full object-cover relative z-10"
-  />
-
-  {/* Shimmer overlay */}
-  <span className="logo-shimmer"></span>
-</div>
 
 
-
-         </FadeInOnScroll>
 
                                
         </div>

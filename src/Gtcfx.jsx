@@ -118,16 +118,23 @@ function Gtcfx() {
         </div>
         <div className="flex justify-center items-center mt-[4em]">
          <button
-      
-                  
-                    className="relative px-8 md:px-20 py-3 text-white rounded-full 
-                    bg-gradient-to-r from-blue-950 to-[rgb(184,136,82)] 
-                    overflow-hidden transition-transform duration-300 
-                    hover:scale-110 hover:rotate-1"
-                  >
-                    <span className="relative z-10"><a href="https://www.gtcfx.com/" className="font-semibold">Register With Gtcfx Now</a></span>
-                    <span className="glow-slide"></span>
-                  </button>
+  className="relative px-8 md:px-20 py-3 text-white rounded-full 
+  bg-gradient-to-r from-blue-950 to-[rgb(184,136,82)] 
+  overflow-hidden transition-transform duration-300 
+  hover:scale-110 hover:rotate-1"
+>
+  <span className="relative z-10">
+    <a 
+      href="https://bit.ly/NGRegistration" 
+      className="font-semibold"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Register With Gtcfx Now
+    </a>
+  </span>
+  <span className="glow-slide"></span>
+</button>
       </div>
       </div>
     </section>
