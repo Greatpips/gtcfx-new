@@ -42,6 +42,11 @@ export default function SignupForm({ onClose }) {
         mode: "no-cors"
       });
 
+      // META PIXEL LEAD EVENT
+      if (typeof window !== "undefined" && window.fbq) {
+        window.fbq("track", "Lead");
+      }
+
       setSubmitted(true);
 
       setFormData({
